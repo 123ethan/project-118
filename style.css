@@ -1,0 +1,33 @@
+body{
+    background-color: lawngreen;
+  
+}
+
+h1{
+    color: aqua;
+    background-color:gainsboro;
+}
+
+#sketch{
+    float: right;
+}
+
+canvas{
+    border: 4px;
+    border-radius: 25%;
+    animation-name: shadow;
+    animation-duration: 6s;
+    margin-top:60px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    from{box-shadow :1px, 1px, 38px greenyellow}
+    to{box-shadow: 1px, 1px 38px lightblue;}
+}
+
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
